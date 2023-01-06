@@ -1,0 +1,27 @@
+(function ($, Drupal, window, document, undefined) {
+  Drupal.behaviors.WBCookieManager = {
+    attach: function(context, settings) {
+      // check if cookie manager is available and disable_cookie_creation is true
+      if (typeof(Drupal.settings.wb_cookie_manger) != undefined) {
+        if (Drupal.settings.wb_cookie_manger.disable_cookie_creation) {
+          var cookieDesc = Object
+          .getOwnPropertyDescriptor(Document.prototype, 'cookie')
+          || Object.getOwnPropertyDescriptor(HTMLDocument.prototype, 'cookie');
+          
+          if (cookieDesc && cookieDesc.configurable) {
+            Object.defineProperty(document, 'cookie', {
+              get : function() {
+                return cookieDesc.get.call(document);
+              },
+              set : function(val) {
+                // cookieDesc.set.call(document, val);
+                return '';
+              }
+            });
+          }
+        }
+      }
+    }
+  }
+    
+})(jQuery, Drupal, this, this.document);

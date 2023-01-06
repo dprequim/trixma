@@ -1,0 +1,46 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 07 Jan 2023 01:09:44 at https://thechoiceisyours.whatisthematrix.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qYC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" -Y https://thechoiceisyours.whatisthematrix.com/ -O1 "C:\My Web Sites\thechoiceisyours.whatisthematrix.com\https___thechoiceisyours.whatisthematrix.com_" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+01:09:59	Error: 	"Not Found" (404) at link https://fonts.googleapis.com/ (from https://thechoiceisyours.whatisthematrix.com/)
+01:09:59	Error: 	"Not Found" (404) at link https://fonts.gstatic.com/ (from https://thechoiceisyours.whatisthematrix.com/)
+01:10:17	Warning: 	Moved Permanently for https://browsehappy.com/robots.txt
+01:10:17	Warning: 	File has moved from https://browsehappy.com/robots.txt to https://browsehappy.com/robots.txt/
+01:10:34	Error: 	"Not Found" (404) at link https://policies.warnerbros.com/privacy/ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js (from https://policies.warnerbros.com/privacy/en-us/html/privacy_en-us_1.0.0.html)
+01:10:34	Error: 	"Not Found" (404) at link https://www.warnerbros.com/profiles/lightning/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js (from https://policies.warnerbros.com/privacy/en-us/html/privacy_en-us_1.0.0.html)
+01:10:34	Error: 	"Not Found" (404) at link https://policies.warnerbros.com/privacy/ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js (from https://policies.warnerbros.com/privacy/en-us/html/privacy_en-us_1.0.0.html)
+01:10:34	Error: 	"Not Found" (404) at link https://www.warnerbros.com/profiles/lightning/modules/contrib/jquery_update/replace/ui/ui/minified/jquery-ui.min.js (from https://policies.warnerbros.com/privacy/en-us/html/privacy_en-us_1.0.0.html)
+01:10:34	Error: 	"Not Found" (404) at link https://www.warnerbros.com/misc/ico/apple-touch-icon-144-precomposed.png (from https://policies.warnerbros.com/privacy/en-us/html/privacy_en-us_1.0.0.html)
+01:10:34	Error: 	"Not Found" (404) at link https://www.warnerbros.com/misc/ico/apple-touch-icon-114-precomposed.png (from https://policies.warnerbros.com/privacy/en-us/html/privacy_en-us_1.0.0.html)
+01:10:34	Error: 	"Not Found" (404) at link https://www.warnerbros.com/misc/ico/apple-touch-icon-72-precomposed.png (from https://policies.warnerbros.com/privacy/en-us/html/privacy_en-us_1.0.0.html)
+01:10:34	Error: 	"Not Found" (404) at link https://www.warnerbros.com/misc/ico/apple-touch-icon-57-precomposed.png (from https://policies.warnerbros.com/privacy/en-us/html/privacy_en-us_1.0.0.html)
+01:10:34	Error: 	"Not Found" (404) at link https://www.warnerbros.com/sites/default/files/US_WBLOGO.png (from https://policies.warnerbros.com/privacy/en-us/html/privacy_en-us_1.0.0.html)
+01:10:38	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://browsehappy.com/)
+01:10:39	Error: 	"Not Found" (404) at link https://policyhub.warnerbros.com/fonts/glyphicons-halflings-regular.eot (from https://policyhub.warnerbros.com/css/bootstrap.min.css)
+01:10:39	Error: 	"Not Found" (404) at link https://policyhub.warnerbros.com/fonts/glyphicons-halflings-regular.eot? (from https://policyhub.warnerbros.com/css/bootstrap.min.css)
+01:10:39	Error: 	"Not Found" (404) at link https://policyhub.warnerbros.com/fonts/glyphicons-halflings-regular.woff2 (from https://policyhub.warnerbros.com/css/bootstrap.min.css)
+01:10:39	Error: 	"Not Found" (404) at link https://policyhub.warnerbros.com/fonts/glyphicons-halflings-regular.woff (from https://policyhub.warnerbros.com/css/bootstrap.min.css)
+01:10:39	Error: 	"Not Found" (404) at link https://policyhub.warnerbros.com/fonts/glyphicons-halflings-regular.ttf (from https://policyhub.warnerbros.com/css/bootstrap.min.css)
+01:10:39	Error: 	"Not Found" (404) at link https://policyhub.warnerbros.com/fonts/glyphicons-halflings-regular.svg (from https://policyhub.warnerbros.com/css/bootstrap.min.css)
+01:10:39	Error: 	"Not Found" (404) at link https://www.warnerbros.com/misc/throbber-inactive.png (from https://policies.warnerbros.com/privacy/en-us/html/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css)
+01:10:39	Error: 	"Not Found" (404) at link https://www.warnerbros.com/profiles/lightning/modules/contrib/jquery_update/replace/ui/themes/base/minified/images/ui-bg_flat_75_ffffff_40x100.png (from https://policies.warnerbros.com/privacy/en-us/html/sites/default/files/css/css_5pKZ_icVn1rjuWN1Hf35JUHj-V1f2mERwyJyfE31xFA.css)
+01:10:39	Error: 	"Not Found" (404) at link https://www.warnerbros.com/profiles/lightning/modules/contrib/panopoly_magic/images/status-active.gif (from https://policies.warnerbros.com/privacy/en-us/html/sites/default/files/css/css_n4pLmwDW7Ffu1lJePEd0Kze6bTEjpmRwS3X8zPlUmbA.css)
+01:10:39	Error: 	"Not Found" (404) at link https://www.warnerbros.com/profiles/lightning/modules/contrib/panopoly_magic/images/close-popup.png (from https://policies.warnerbros.com/privacy/en-us/html/sites/default/files/css/css_n4pLmwDW7Ffu1lJePEd0Kze6bTEjpmRwS3X8zPlUmbA.css)
+01:10:39	Error: 	"Not Found" (404) at link https://www.warnerbros.com/profiles/lightning/modules/contrib/colorbox/styles/default/images/controls.png (from https://policies.warnerbros.com/privacy/en-us/html/sites/default/files/css/css_Os-9zuWjiYq18YEM1l20IA_CPm7PQaNDJWWhJavnS24.css)
+01:10:39	Error: 	"Not Found" (404) at link https://www.warnerbros.com/profiles/lightning/modules/contrib/ctools/images/status-active.gif (from https://policies.warnerbros.com/privacy/en-us/html/sites/default/files/css/css_Os-9zuWjiYq18YEM1l20IA_CPm7PQaNDJWWhJavnS24.css)
+01:10:39	Warning: 	File not parsed, looks like binary: https://policies.warnerbros.com/privacy/en-us/html/sites/all/themes/bootstrap_wb/fonts/icomoon.eot%3Fcp8pasdfsz.html
+01:10:39	Warning: 	Warning: store application/octet-stream without scan: C:/My Web Sites/thechoiceisyours.whatisthematrix.com/https___thechoiceisyours.whatisthematrix.com_/policies.warnerbros.com/privacy/en-us/html/sites/all/themes/bootstrap_wb/fonts/icomoon.eot_cp8pasdfsz.html
+01:10:39	Warning: 	File not parsed, looks like binary: https://policies.warnerbros.com/privacy/en-us/html/sites/all/themes/bootstrap_wb/fonts/icomoon.eot%3Fcp8asdfpsz.html
+01:10:39	Warning: 	Warning: store application/octet-stream without scan: C:/My Web Sites/thechoiceisyours.whatisthematrix.com/https___thechoiceisyours.whatisthematrix.com_/policies.warnerbros.com/privacy/en-us/html/sites/all/themes/bootstrap_wb/fonts/icomoon.eot_cp8asdfpsz.html
+01:10:39	Warning: 	File not parsed, looks like binary: https://policies.warnerbros.com/privacy/en-us/html/sites/all/themes/bootstrap_wb/fonts/icomoon.ttf%3Fcp8psadz.html
+01:10:39	Warning: 	Warning: store application/octet-stream without scan: C:/My Web Sites/thechoiceisyours.whatisthematrix.com/https___thechoiceisyours.whatisthematrix.com_/policies.warnerbros.com/privacy/en-us/html/sites/all/themes/bootstrap_wb/fonts/icomoon.ttf_cp8psadz.html
+01:10:39	Warning: 	File not parsed, looks like binary: https://policies.warnerbros.com/privacy/en-us/html/sites/all/themes/bootstrap_wb/fonts/icomoon.woff%3Fcp8pasdfsz.html
+01:10:39	Warning: 	Warning: store application/octet-stream without scan: C:/My Web Sites/thechoiceisyours.whatisthematrix.com/https___thechoiceisyours.whatisthematrix.com_/policies.warnerbros.com/privacy/en-us/html/sites/all/themes/bootstrap_wb/fonts/icomoon.woff_cp8pasdfsz.html
+01:10:39	Error: 	"Not Found" (404) at link https://www.warnerbros.com/misc/throbber.gif (from https://policies.warnerbros.com/privacy/en-us/html/sites/default/files/css/css_AeFcjKJUQ_RGLlpbjlhZl_b56MoOvBlBADe3vbzjIBY.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 55 seconds : 98 links scanned, 67 files written (4283822 bytes overall) [3266771 bytes received at 59395 bytes/sec], 4001277 bytes transferred using HTTP compression in 38 files, ratio 20%, 3.2 requests per connection
+(25 errors, 10 warnings, 0 messages)

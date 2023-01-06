@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    -webkit-overflow-scrolling: touch;
+    background: #FFFFFF;
+}
+a, a:hover, a:active, a:focus {
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+button, button:hover, button:active, button:focus {
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+/* ===== IE Block Code ===== */
+#olderbrowser {
+    display: none;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    font-size: 20px;
+    z-index: 1100;
+    color: #FFFFFF;
+    height: 100%;
+    background: #000000;
+    bottom: 0;
+}
+.ie-quote {
+    margin-top: 20%;
+}
+.ie-quote p {
+    padding-top: 35px;
+}
+/* ===== IE Block Code Ends ===== */
+.header {
+    background: #191919;
+    padding: 10px 15px;
+}
+.logo {
+    max-width: 180px;
+}
+.content {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.content h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    line-height: 40px;
+    text-align: center;
+}
+.content h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #191919;
+}
+.content ul li {
+    margin-bottom: 20px;
+}
+.content ul li a {
+    color: #191919;
+    margin: 15px 15px 15px 0;
+    text-align: left;
+}
+.content ul li a:hover {
+    color: #417dc8;
+}
+.content ul li a:focus {
+    color: #191919;
+}
+.content span {
+    color: #191919;
+    margin-right: 25px;
+}
+.footer {
+    background: #191919;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+.footer p {
+    color: #FFFFFF;
+    text-align: right;
+    padding-right: 10px;
+}
+.footer ul li {
+    display: inline-block;
+}
+.footer ul li a {
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+/*=========================================
+	media queries
+=========================================*/
+@media screen and (max-width:1024px) {
+.content span {
+    margin-right: 10px;
+}
+.content ul li a {
+    margin-right: 10px;
+    font-size: 12px;
+}
+.content ul li a:hover {
+    color: inherit;
+}
+}
+
+@media screen and (max-width:767px) {
+.content h2 {
+    font-size: 20px;
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+.footer {
+    text-align: center;
+    padding: 5px 15px;
+    font-size: 11px;
+}
+.footer p {
+    text-align: center;
+}
+}
+
+@media screen and (device-width:1138px) and (device-height: 712px) and (orientation: landscape) {
+.content span {
+    margin-right: 10px;
+}
+.content ul li a {
+    margin-right: 10px;
+    font-size: 13px;
+}
+}
